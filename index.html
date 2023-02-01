@@ -16,8 +16,8 @@
 
 <body>
   <ul class="skip-links">
-    <li><a href="#nav">Skip to navigation</a></li>
-    <li><a href="#main">Skip to main content</a></li>
+    <li><a href="#nav">Navigation</a></li>
+    <li><a href="#main">Main Content</a></li>
   </ul>
 
   <div class="container">
@@ -26,10 +26,10 @@
       <div role="navigation" class="main-nav" id="nav">
 
         <ul>
-          <li><a href="#">Home</a></li>
+          <li><a href="#main">Home</a></li>
           <li><a href="#">Products</a></li>
-          <li><a href="#">Reservation</a></li>
-          <li><a href="#">Studio</a></li>
+          <li><a href="#contact">Reservation</a></li>
+          <li><a href="#studio">Studio</a></li>
         </ul>
       </div>
 
@@ -43,6 +43,7 @@
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam perferendis expedita sed itaque odit ipsam
         omnis, eos voluptates magni fugit culpa voluptatibus, inventore eaque, eligendi voluptatum! Voluptate iusto
         error voluptatibus.</p>
+
       <div class="owner">
         <h1>Meet the owner</h1>
 
@@ -53,7 +54,7 @@
           <li itemprop="telephone">Phone: 613-000-0000</li>
         </ul>
 
-        <h1>Address</h1>
+        <h1 id="studio">Address</h1>
         <p itemscope itemtype="https://schema.org/PostalAddress">
           <span itemprop="name">Jambox Studios</span>
           <span itemprop="streetAddress">123 Guitar Road,</span>
@@ -62,7 +63,7 @@
         </p>
 
       </div>
-      <div role="complementary" class="contact-section">
+      <div role="complementary" class="contact" id="contact">
 
         <h1>Contact Us</h1>
         <form role="form" action="thanks.html">
@@ -79,7 +80,7 @@
 
       </div>
     </div>
-    <div role="contentinfo" class="site-footer">
+    <div role="contentinfo" class="footer">
       <p>&copy; 2021 Jam Box Studios</p>
       <p><a href="#top">Back to Top</a></p>
     </div>
